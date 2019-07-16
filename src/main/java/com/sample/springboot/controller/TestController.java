@@ -19,7 +19,7 @@ import com.sample.springboot.model.SampleJson;
 @RestController
 @RequestMapping("/api/{version}")
 public class TestController {
-	@RequestMapping("/")
+	@RequestMapping("/service-check")
 	public String home() {
 		return "Spring boot is working!";
 	}
